@@ -183,5 +183,5 @@ src/
 
 This project is deployed on [Vercel](https://vercel.com/).
 
-🔗 **Live URL**: [https://supreme-group.vercel.app](https://supreme-group.vercel.app)  
+🔗 **Live URL**: [https://blacksof-frontend-assignment.vercel.app/](https://blacksof-frontend-assignment.vercel.app/)  
 📂 **Repository**: [https://github.com/Vaibhavdixit1/blacksof-frontend-assignment](https://github.com/Vaibhavdixit1/blacksof-frontend-assignment)
