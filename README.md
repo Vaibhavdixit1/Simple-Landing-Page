@@ -1,10 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Supreme Group Frontend – Technical Task
 
-First, run the development server:
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It is a pixel-perfect, responsive, and accessible implementation of the Supreme Group website based on the provided Figma design.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone or Download the Project
+
+You can either:
+
+- **Download the ZIP file**, extract it, and open it in your code editor.
+
+**OR**
+
+- **Use Git (recommended):**
 
 ```bash
+git clone <"https://github.com/Vaibhavdixit1/blacksof-frontend-assignment">
+cd <project-folder>
+```
+
+### 2. Install Dependencies and Run the Development Server
+
+Make sure you have Node.js installed. Then run:
+
+```bash
+# Install dependencies
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
+
+# Start the development server
 npm run dev
 # or
 yarn dev
@@ -16,21 +48,140 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+src/app/page.js
+```
 
-## Learn More
+The page auto-updates as you edit the file.
 
-To learn more about Next.js, take a look at the following resources:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a modern font family by Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Component Architecture Overview
 
-## Deploy on Vercel
+```
+src/
+├── app/
+│   ├── layout.js
+│   ├── page.js
+│   ├── globals.css
+│   └── favicon.ico
+├── components/
+│   ├── Header.js
+│   ├── HeroSection.js
+│   ├── MainSlider.js
+│   ├── SliderComponent.js
+│   ├── ContactSection.js
+│   └── Footer.js
+├── constants/
+│   └── data.json
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Components are modular and reusable.
+* Static data is managed via `data.json`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📱 Responsive Design Strategy
+
+* **Mobile-first approach** using Tailwind's responsive utility classes.
+* Layouts adapt to screen sizes with Tailwind’s `sm`, `md`, `lg`, `xl`, and `2xl` breakpoints.
+* Thoroughly tested on Chrome
+
+---
+
+## ⚡ Performance Optimization Techniques
+
+* **Next.js Image Optimization** via `next/image`.
+* **Code Splitting** through dynamic imports.
+* **Webpack** optimizations through built-in Next.js features.
+
+---
+
+## ♿ Accessibility Considerations
+
+* Semantic HTML (e.g., `header`, `section`, `footer`).
+* Keyboard navigation supported.
+* WCAG-compliant contrast and focus states.
+
+---
+
+## ✨ Third-party Libraries Used
+
+| Library       | Use Case                      |
+| ------------- | ----------------------------- |
+| Tailwind CSS  | Rapid utility-first styling   |
+| Framer Motion | Smooth animations             |
+| Next.js       | Framework, routing, rendering |
+| next/font     | Font optimization             |
+
+---
+
+## 🧠 Assumptions & Decisions
+
+* JavaScript was used instead of TypeScript for simplicity and time-efficiency.
+* No global state management needed for current project complexity.
+* Framer Motion was chosen for lightweight and intuitive animations.
+
+---
+
+## 🧩 Challenges & Solutions
+
+* **Pixel-perfect design**: Tailwind helped with exact spacing and typography.
+* **Responsiveness**: Debugged layout issues across multiple screen sizes and browsers.
+* **Animation integration**: Ensured animations are subtle, smooth, and non-blocking.
+
+---
+
+## 🌱  Suggested upcoming features 
+
+* Interactive product demos
+* Real-time order tracking
+* Sustainability initiatives update
+* AI-powered customer support
+
+---
+
+---
+
+## 🌱 Suggested Improvements 
+
+* Migrate to TypeScript for better maintainability.
+* Add tests (unit + integration) with Jest and React Testing Library.
+* Integrate a CMS (e.g., Sanity) for dynamic content.
+* Add backend or third-party email service for contact form.
+* Lighthouse-based performance and accessibility tuning.
+
+---
+
+## 📝 Additional Remarks
+
+- This project was developed with a focus on maintainability and scalability, ensuring ease of future enhancements.
+- While adhering to pixel-perfect design, some minor deviations were made to improve accessibility and responsiveness across devices.
+- The use of Tailwind CSS helped accelerate styling while maintaining consistency.
+- Performance optimizations such as code splitting have been applied to enhance user experience.
+- Accessibility has been carefully considered, including keyboard navigation .
+- Animations were implemented using Framer Motion to provide smooth and performant UI transitions.
+- Testing coverage can be extended in future iterations as the project scope evolves.
+- Looking forward to feedback and suggestions to further improve this project.
+
+
+---
+
+## 🔗 Learn More
+
+* [Next.js Documentation](https://nextjs.org/docs)
+* [Learn Next.js](https://nextjs.org/learn)
+* [Next.js GitHub Repository](https://github.com/vercel/next.js)
+
+---
+
+## 🚀 Deploy on Vercel
+
+This project is deployed on [Vercel](https://vercel.com/).
+
+🔗 **Live URL**: [https://supreme-group.vercel.app](https://supreme-group.vercel.app)  
+📂 **Repository**: [https://github.com/Vaibhavdixit1/blacksof-frontend-assignment](https://github.com/Vaibhavdixit1/blacksof-frontend-assignment)
