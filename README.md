@@ -95,5 +95,5 @@ src/
 
 This project is deployed on [Vercel](https://vercel.com/).
 
-🔗 **Live URL**: [https://blacksof-frontend-assignment.vercel.app/](https://blacksof-frontend-assignment.vercel.app/)  
+🔗 **Live URL**: [https://simple-landing-page-flax.vercel.app/](https://simple-landing-page-flax.vercel.app/)  
 📂 **Repository**: [https://github.com/Vaibhavdixit1/blacksof-frontend-assignment](https://github.com/Vaibhavdixit1/blacksof-frontend-assignment)
